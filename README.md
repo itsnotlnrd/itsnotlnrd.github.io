@@ -1,4 +1,4 @@
-# Lennard Dequina — Portfolio
+# John Lennard Dequiña — Portfolio
 
 Personal portfolio website. Plain HTML, CSS and JavaScript: no build step, no dependencies, no backend.
 Hosted for free on **GitHub Pages**, so it stays online 24/7 regardless of any local computer.
@@ -48,13 +48,11 @@ Edit the text directly in `index.html` (search for "I turn complex technical iss
 Edit the variables at the top of `assets/css/styles.css` (`--accent` is the orange highlight).
 
 ## Content checklist (TODO)
-- [ ] Contact links: email, LinkedIn, GitHub (`data.js`)
-- [ ] NiCE start date and location (`data.js` → experience)
-- [ ] Review the NiCE responsibilities wording and add specifics (no confidential details)
-- [ ] Previous roles
-- [ ] Additional confirmed skills: OS, networking, tools (`data.js` → skills)
+- [x] LinkedIn and GitHub links (`data.js`)
+- [ ] Personal email (`data.js` → `email`)
+- [x] Experience history, skills, education and certifications (from LinkedIn, Oct 2026)
+- [ ] Review the Technical Support Engineer bullets and add specifics (no confidential details)
 - [ ] Projects / case studies (personal or fully sanitized)
-- [ ] Certifications, training, awards
 - [ ] Upload `assets/resume.pdf` and set `available: true`
 - [ ] Review the About section's career-goal sentence
 
