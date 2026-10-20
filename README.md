@@ -45,7 +45,7 @@ Use a personal email address (not a work one). Blank values are hidden.
 Edit the text directly in `index.html` (search for "I turn complex technical issues").
 
 ### Change colors
-Edit the variables at the top of `assets/css/styles.css` (`--accent` is the teal highlight).
+Edit the variables at the top of `assets/css/styles.css` (`--accent` is the orange highlight).
 
 ## Content checklist (TODO)
 - [ ] Contact links: email, LinkedIn, GitHub (`data.js`)
