@@ -10,13 +10,13 @@
 
 window.PORTFOLIO = {
   profile: {
-    name: "Lennard Dequina",
+    name: "John Lennard Dequiña",
     title: "Technical Support Engineer",
 
-    // TODO: contact links. Leave "" to hide a link.
-    email: "",            // e.g. "yourname@gmail.com" (use a personal address)
-    linkedin: "",         // e.g. "https://www.linkedin.com/in/your-handle"
-    github: "",           // e.g. "https://github.com/your-username"
+    // Contact links. Leave "" to hide a link.
+    email: "",            // TODO: e.g. "yourname@gmail.com" (use a personal address)
+    linkedin: "https://www.linkedin.com/in/john-lennard-dequi%C3%B1a-608b89269/",
+    github: "https://github.com/itsnotlnrd",
     otherLinks: [
       // { label: "YouTube", url: "https://youtube.com/@your-channel" },
     ],
@@ -32,42 +32,59 @@ window.PORTFOLIO = {
      Only list skills you can confidently discuss in an interview. */
   skills: [
     {
-      category: "Technical Support",
+      category: "Support & Troubleshooting",
       items: [
-        "Technical troubleshooting",
-        "Technical investigation",
-        "Support case management",
-        "Customer support"
+        "Troubleshooting",
+        "Root cause analysis",
+        "Incident management",
+        "Customer escalation management",
+        "API / JSON data analysis"
       ]
     },
     {
-      category: "Problem Solving",
+      category: "Databases & Data",
       items: [
-        "Root-cause analysis",
-        "Issue reproduction & isolation",
-        "Analytical thinking"
+        "SQL",
+        "MongoDB",
+        "Oracle SQL Developer",
+        "Database development",
+        "Data integration & ETL",
+        "Microsoft Power BI"
       ]
     },
     {
-      category: "Communication",
+      category: "Programming",
       items: [
-        "Clear customer communication",
-        "Explaining technical issues simply",
-        "Written case updates"
+        "C#",
+        "Python",
+        "Java",
+        "C++",
+        "PHP",
+        "HTML",
+        "Vue.js"
       ]
     },
     {
-      category: "Hardware & Technology",
+      category: "Tools & Platforms",
       items: [
-        "PC hardware",
-        "Gaming technology",
-        "Software"
+        "Salesforce",
+        "Salesforce Lightning",
+        "Postman",
+        "Adobe Photoshop",
+        "Adobe Premiere Pro"
+      ]
+    },
+    {
+      category: "Professional Skills",
+      items: [
+        "Communication",
+        "Analytical skills",
+        "Decision-making",
+        "Cross-functional collaboration",
+        "Time management",
+        "Adaptability"
       ]
     }
-    // TODO: add the tools you actually use, for example:
-    // { category: "Operating Systems", items: ["Windows 10/11", "Windows Server"] },
-    // { category: "Networking", items: ["TCP/IP", "DNS", "VPN troubleshooting"] },
-    // { category: "Tools & Platforms", items: ["Salesforce", "Jira", "ServiceNow"] },
   ],
 
   /* ---------- Professional experience (newest first) ---------- */
@@ -75,9 +92,9 @@ window.PORTFOLIO = {
     {
       role: "Technical Support Engineer",
       company: "NiCE",
-      start: "",          // TODO: e.g. "Mar 2023"
+      start: "Jan 2026",
       end: "Present",
-      location: "",       // TODO: e.g. "Manila, Philippines" or "Remote"
+      location: "Taguig, Philippines · Hybrid",
       summary:
         "Investigate, troubleshoot and resolve technical issues reported by customers, owning support cases from first response through resolution.",
       // TODO: review these and add specifics (products, scale, tools), without confidential details.
@@ -86,13 +103,58 @@ window.PORTFOLIO = {
         "Manage technical support cases end to end, keeping customers informed at each step",
         "Translate complex technical findings into clear, actionable updates for customers"
       ]
+    },
+    {
+      role: "Software Engineer",
+      company: "NiCE",
+      start: "Jan 2025",
+      end: "Jan 2026",
+      location: "Philippines · Remote",
+      summary: "",
+      highlights: [
+        "Continued responsibilities from ClearView under NiCE following the acquisition",
+        "Worked closely with cross-functional teams to ensure smooth data and system transitions"
+      ]
+    },
+    {
+      role: "Database Analyst",
+      company: "ClearView",
+      start: "Jun 2024",
+      end: "Jan 2025",
+      location: "Philippines · Remote",
+      summary: "",
+      highlights: [
+        "Troubleshot tickets related to back-end changes and data issues",
+        "Maintained and supported advanced ETL processes",
+        "Modified and optimized existing data integrations",
+        "Collaborated with the Senior Data Services Lead to support client requests",
+        "Documented data processes"
+      ]
+    },
+    {
+      role: "Database Administrator",
+      company: "Small Business Corporation",
+      start: "Aug 2023",
+      end: "May 2024",
+      location: "Makati, Philippines · On-site",
+      summary: "",
+      highlights: [
+        "Assisted in database design, management, maintenance and optimization to ensure data integrity, availability and security",
+        "Contributed ideas to the company's Unified Borrower Masterlist project",
+        "Helped manage user access controls and permissions to maintain data security"
+      ]
+    },
+    {
+      role: "Intern",
+      company: "Hesedovation PTE LTD",
+      start: "Mar 2023",
+      end: "May 2023",
+      location: "",
+      summary: "Gained hands-on experience developing applications with the Vue.js framework.",
+      highlights: [
+        "Assisted in building a to-do list application that supported the company's goals"
+      ]
     }
-    // TODO: add previous roles in the same format:
-    // {
-    //   role: "Job Title", company: "Company", start: "Jan 2021", end: "Feb 2023",
-    //   location: "City", summary: "One-line summary.",
-    //   highlights: ["Responsibility or accomplishment", "Another one"]
-    // },
   ],
 
   /* ---------- Projects & case studies ----------
@@ -106,7 +168,7 @@ window.PORTFOLIO = {
       approach: "Built a dependency-free static site with semantic HTML, modern CSS and vanilla JavaScript. Content lives in one data file, so updates take minutes.",
       tech: ["HTML", "CSS", "JavaScript", "GitHub Pages"],
       outcome: "A responsive, keyboard-accessible site that stays online independently of any local machine.",
-      repo: "",   // filled in after publishing
+      repo: "https://github.com/itsnotlnrd/itsnotlnrd.github.io",
       demo: ""
     }
     // TODO: add projects in the same format:
@@ -116,11 +178,13 @@ window.PORTFOLIO = {
     // },
   ],
 
-  /* ---------- Achievements, training & certifications ---------- */
+  /* ---------- Education, certifications & training ---------- */
   achievements: [
-    // TODO: add yours, for example:
-    // { type: "Certification", title: "CompTIA A+", issuer: "CompTIA", date: "2024", url: "" },
-    // { type: "Award", title: "Award name", issuer: "NiCE", date: "2025", description: "" },
-    // { type: "Training", title: "Course name", issuer: "Provider", date: "2025", url: "" },
+    { type: "Education", title: "BS Computer Science", issuer: "University of St. La Salle", date: "2019 – 2023", url: "" },
+    { type: "Certification", title: "EF SET English Certificate: C1 Advanced", issuer: "EF SET", date: "Mar 2024", url: "https://cert.efset.org/D7HwzU" },
+    { type: "Training", title: "SkillUP: Python Programming", issuer: "EDUCBA", date: "", url: "" },
+    { type: "Training", title: "SkillUP: Tableau", issuer: "EDUCBA", date: "", url: "" }
+    // TODO: add more, for example:
+    // { type: "Award", title: "Award name", issuer: "Issuer", date: "2025", description: "" },
   ]
 };
