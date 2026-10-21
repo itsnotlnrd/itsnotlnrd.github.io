@@ -188,14 +188,14 @@
   // ---------- terminal animation ----------
   var term = document.getElementById("term");
   var lines = [
-    [["c-prompt", "$ "], ["c-cmd", "case open --priority high"]],
-    [["c-info", "[info] "], ["", "gathering symptoms, logs & impact"]],
-    [["c-info", "[info] "], ["", "reproducing issue ........ "], ["c-ok", "ok"]],
-    [["c-info", "[info] "], ["", "isolating variables ...... "], ["c-ok", "ok"]],
-    [["c-warn", "[find] "], ["", "root cause identified"]],
-    [["c-info", "[info] "], ["", "applying fix & verifying . "], ["c-ok", "ok"]],
-    [["c-info", "[info] "], ["", "customer updated, documented"]],
-    [["c-prompt", "$ "], ["c-cmd", "case close "], ["c-ok", "✓ resolved"]]
+    [["c-prompt", "$ "], ["c-cmd", "today --plan"]],
+    [["c-info", "[task] "], ["", "inbox sorted, priorities flagged "], ["c-ok", "done"]],
+    [["c-info", "[task] "], ["", "meetings scheduled ............ "], ["c-ok", "done"]],
+    [["c-info", "[task] "], ["", "spreadsheet updated & cleaned . "], ["c-ok", "done"]],
+    [["c-info", "[task] "], ["", "customer replies sent ......... "], ["c-ok", "done"]],
+    [["c-warn", "[note] "], ["", "research summary ready for review"]],
+    [["c-info", "[task] "], ["", "notes documented & shared"]],
+    [["c-prompt", "$ "], ["c-cmd", "wrap-up "], ["c-ok", "✓ all tasks complete"]]
   ];
   function span(cls, txt) { var s = document.createElement("span"); if (cls) s.className = cls; s.textContent = txt; return s; }
   if (reduceMotion) {
