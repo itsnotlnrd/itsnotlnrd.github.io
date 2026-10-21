@@ -11,11 +11,11 @@
 window.PORTFOLIO = {
   profile: {
     name: "John Lennard Dequiña",
-    title: "Technical Support Engineer",
+    title: "Virtual Assistance · Customer & Technical Support",
 
     // Contact links. Leave "" to hide a link.
     email: "",            // TODO: e.g. "yourname@gmail.com" (use a personal address)
-    linkedin: "https://www.linkedin.com/in/john-lennard-dequi%C3%B1a-608b89269/",
+    linkedin: "https://www.linkedin.com/in/johnlennarddequina/",
     github: "https://github.com/itsnotlnrd",
     otherLinks: [
       // { label: "YouTube", url: "https://youtube.com/@your-channel" },
@@ -31,6 +31,28 @@ window.PORTFOLIO = {
   /* ---------- Technical skills ----------
      Only list skills you can confidently discuss in an interview. */
   skills: [
+    {
+      category: "Virtual Assistance & Admin",
+      items: [
+        "Email management",
+        "Calendar management",
+        "Data entry & spreadsheets",
+        "Online research & reports",
+        "Social media & content",
+        "Customer support"
+      ]
+    },
+    {
+      category: "Productivity & Creative Tools",
+      items: [
+        "Google Workspace",
+        "Microsoft Office / Excel",
+        "Slack",
+        "Microsoft Teams",
+        "Zoom",
+        "Canva"
+      ]
+    },
     {
       category: "Support & Troubleshooting",
       items: [
@@ -77,7 +99,7 @@ window.PORTFOLIO = {
     {
       category: "Professional Skills",
       items: [
-        "Communication",
+        "Written communication (EF SET C1)",
         "Analytical skills",
         "Decision-making",
         "Cross-functional collaboration",
@@ -96,12 +118,12 @@ window.PORTFOLIO = {
       end: "Present",
       location: "Taguig, Philippines · Hybrid",
       summary:
-        "Investigate, troubleshoot and resolve technical issues reported by customers, owning support cases from first response through resolution.",
-      // TODO: review these and add specifics (products, scale, tools), without confidential details.
+        "Support customers of CXone Reporting, Dashboard and Performance Management products, owning escalated cases from first response to resolution.",
       highlights: [
-        "Analyze and troubleshoot customer-reported technical issues to identify root causes",
-        "Manage technical support cases end to end, keeping customers informed at each step",
-        "Translate complex technical findings into clear, actionable updates for customers"
+        "Manage multiple concurrent cases, prioritizing work and keeping customers and stakeholders updated with clear written communication",
+        "Investigate issues by analyzing API/JSON data, comparing datasets and reproducing problems through cross-browser testing",
+        "Coordinate with R&D, Technical Account Managers and Key Account Managers to escalate and resolve complex issues",
+        "Document findings and link related issues to broader platform incidents"
       ]
     },
     {
@@ -164,7 +186,7 @@ window.PORTFOLIO = {
     {
       title: "Personal Portfolio Website",
       overview: "This website: a fast, accessible portfolio hosted for free on GitHub Pages.",
-      problem: "Needed a professional, always-online place to share my experience with recruiters, at no hosting cost.",
+      problem: "Needed a professional, always-online place to showcase my work and experience, at no hosting cost.",
       approach: "Built a dependency-free static site with semantic HTML, modern CSS and vanilla JavaScript. Content lives in one data file, so updates take minutes.",
       tech: ["HTML", "CSS", "JavaScript", "GitHub Pages"],
       outcome: "A responsive, keyboard-accessible site that stays online independently of any local machine.",
