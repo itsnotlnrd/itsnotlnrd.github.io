@@ -43,6 +43,19 @@ window.PORTFOLIO = {
       ]
     },
     {
+      category: "AI-Powered Productivity",
+      items: [
+        "ChatGPT",
+        "Claude",
+        "Google Gemini",
+        "Microsoft Copilot",
+        "AI-assisted writing & editing",
+        "AI research & summaries",
+        "AI for spreadsheets & data",
+        "AI for websites & automation"
+      ]
+    },
+    {
       category: "Productivity & Creative Tools",
       items: [
         "Google Workspace",
@@ -89,6 +102,8 @@ window.PORTFOLIO = {
     {
       category: "Tools & Platforms",
       items: [
+        "WordPress",
+        "Web design",
         "Salesforce",
         "Salesforce Lightning",
         "Postman",
@@ -183,6 +198,16 @@ window.PORTFOLIO = {
      Never publish customer data, internal tools, or confidential case details.
      Personal projects, home labs, PC builds and sanitized write-ups work well. */
   projects: [
+    {
+      title: "Author Website: Jeannie Roberts",
+      overview: "A complete WordPress website for romance and suspense author Jeannie Roberts.",
+      problem: "The author needed a professional online home to showcase her books, sell her titles and grow her reader list.",
+      approach: "Set up WordPress with a customized theme, navigation and page layouts; created individual book pages and an online shop; added a newsletter sign-up with a free eBook offer and an ARC (advance reader copy) sign-up form.",
+      tech: ["WordPress", "Web design", "AI tools"],
+      outcome: "A live author website where readers can explore her books, shop, and join her newsletter and ARC team.",
+      repo: "",
+      demo: "https://authorjeannieroberts.com/"
+    },
     {
       title: "Personal Portfolio Website",
       overview: "This website: a fast, accessible portfolio hosted for free on GitHub Pages.",
