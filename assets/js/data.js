@@ -1,17 +1,15 @@
 /* ==========================================================================
    PORTFOLIO CONTENT — edit this file to update the website.
    --------------------------------------------------------------------------
-   - Every list below (skills, experience, projects, achievements) renders
-     automatically. Add, remove or reorder entries; no HTML changes needed.
-   - Leave a field as "" (empty) to hide it. Empty sections show a tidy
-     "coming soon" message instead of placeholder text.
+   - Every list below (capabilities, experience, projects, credentials)
+     renders automatically. Add, remove or reorder entries; no HTML changes.
+   - Leave a field as "" (empty) to hide it.
    - Lines marked  TODO  are things only you can fill in.
    ========================================================================== */
 
 window.PORTFOLIO = {
   profile: {
     name: "John Lennard Dequiña",
-    title: "Virtual Assistance · Customer & Technical Support",
 
     // Contact links. Leave "" to hide a link.
     email: "",            // TODO: e.g. "yourname@gmail.com" (use a personal address)
@@ -28,99 +26,39 @@ window.PORTFOLIO = {
     }
   },
 
-  /* ---------- Technical skills ----------
-     Only list skills you can confidently discuss in an interview. */
-  skills: [
+  /* ---------- What I do ----------
+     One row per area: a short sentence about the work, then the tools.
+     Only list tools you can confidently discuss in an interview. */
+  capabilities: [
     {
-      category: "Virtual Assistance & Admin",
-      items: [
-        "Email management",
-        "Calendar management",
-        "Data entry & spreadsheets",
-        "Online research & reports",
-        "Social media & content",
-        "Customer support"
-      ]
+      area: "Admin & coordination",
+      text: "Inbox and calendar upkeep, data entry, spreadsheet clean-up, online research and short written reports. Social media and simple design work in Canva.",
+      tools: ["Google Workspace", "Microsoft Office", "Excel", "Canva", "Slack", "Microsoft Teams", "Zoom"]
     },
     {
-      category: "AI-Powered Productivity",
-      items: [
-        "ChatGPT",
-        "Claude",
-        "Google Gemini",
-        "Microsoft Copilot",
-        "AI-assisted writing & editing",
-        "AI research & summaries",
-        "AI for spreadsheets & data",
-        "AI for websites & automation"
-      ]
+      area: "Customer & technical support",
+      text: "Taking a problem from first reply to resolution: reproducing it, finding the root cause, escalating with clear notes and keeping the customer updated in writing.",
+      tools: ["Salesforce", "Postman", "API / JSON analysis", "Incident & escalation management"]
     },
     {
-      category: "Productivity & Creative Tools",
-      items: [
-        "Google Workspace",
-        "Microsoft Office / Excel",
-        "Slack",
-        "Microsoft Teams",
-        "Zoom",
-        "Canva"
-      ]
+      area: "Data",
+      text: "Querying and fixing data, maintaining ETL jobs and integrations, and turning tables into something people can read.",
+      tools: ["SQL", "MongoDB", "Oracle SQL Developer", "ETL", "Power BI", "Tableau"]
     },
     {
-      category: "Support & Troubleshooting",
-      items: [
-        "Troubleshooting",
-        "Root cause analysis",
-        "Incident management",
-        "Customer escalation management",
-        "API / JSON data analysis"
-      ]
+      area: "Web & creative",
+      text: "Building and maintaining WordPress sites, plus image and video editing when content needs it.",
+      tools: ["WordPress", "HTML", "Adobe Photoshop", "Adobe Premiere Pro"]
     },
     {
-      category: "Databases & Data",
-      items: [
-        "SQL",
-        "MongoDB",
-        "Oracle SQL Developer",
-        "Database development",
-        "Data integration & ETL",
-        "Microsoft Power BI"
-      ]
+      area: "AI tools",
+      text: "Drafting and polishing emails and documents, summarizing research, organizing spreadsheet data, and building sites and small automations. Every output is checked by hand before it goes anywhere.",
+      tools: ["ChatGPT", "Claude", "Google Gemini", "Microsoft Copilot"]
     },
     {
-      category: "Programming",
-      items: [
-        "C#",
-        "Python",
-        "Java",
-        "C++",
-        "PHP",
-        "HTML",
-        "Vue.js"
-      ]
-    },
-    {
-      category: "Tools & Platforms",
-      items: [
-        "WordPress",
-        "Web design",
-        "Salesforce",
-        "Salesforce Lightning",
-        "Postman",
-        "Adobe Photoshop",
-        "Adobe Premiere Pro"
-      ]
-    },
-    {
-      category: "Professional Skills",
-      items: [
-        "Written communication (EF SET C1)",
-        "Analytical skills",
-        "Decision-making",
-        "Cross-functional collaboration",
-        "Time management",
-        "Adaptability"
-      ]
+      area: "Programming",
+      text: "A Computer Science degree and software engineering work mean I can read code, write scripts and talk to developers in their terms.",
+      tools: ["C#", "Python", "Java", "C++", "PHP", "Vue.js"]
     }
   ],
 
@@ -131,14 +69,11 @@ window.PORTFOLIO = {
       company: "NiCE",
       start: "Jan 2026",
       end: "Present",
-      location: "Taguig, Philippines · Hybrid",
-      summary:
-        "Support customers of CXone Reporting, Dashboard and Performance Management products, owning escalated cases from first response to resolution.",
+      location: "Hybrid",
       highlights: [
-        "Manage multiple concurrent cases, prioritizing work and keeping customers and stakeholders updated with clear written communication",
-        "Investigate issues by analyzing API/JSON data, comparing datasets and reproducing problems through cross-browser testing",
-        "Coordinate with R&D, Technical Account Managers and Key Account Managers to escalate and resolve complex issues",
-        "Document findings and link related issues to broader platform incidents"
+        "Own escalated cases for CXone reporting and dashboard products from first response to resolution",
+        "Analyze API/JSON data and reproduce issues across browsers to find the cause",
+        "Coordinate with R&D and account managers, and document findings for related incidents"
       ]
     },
     {
@@ -146,11 +81,10 @@ window.PORTFOLIO = {
       company: "NiCE",
       start: "Jan 2025",
       end: "Jan 2026",
-      location: "Philippines · Remote",
-      summary: "",
+      location: "Remote",
       highlights: [
-        "Continued responsibilities from ClearView under NiCE following the acquisition",
-        "Worked closely with cross-functional teams to ensure smooth data and system transitions"
+        "Continued my ClearView responsibilities after NiCE acquired the company",
+        "Worked with cross-functional teams to keep data and systems running through the transition"
       ]
     },
     {
@@ -158,14 +92,11 @@ window.PORTFOLIO = {
       company: "ClearView",
       start: "Jun 2024",
       end: "Jan 2025",
-      location: "Philippines · Remote",
-      summary: "",
+      location: "Remote",
       highlights: [
-        "Troubleshot tickets related to back-end changes and data issues",
-        "Maintained and supported advanced ETL processes",
-        "Modified and optimized existing data integrations",
-        "Collaborated with the Senior Data Services Lead to support client requests",
-        "Documented data processes"
+        "Supported client requests with the Senior Data Services Lead",
+        "Troubleshot tickets caused by back-end changes and data issues",
+        "Maintained and optimized ETL processes and data integrations, and documented them"
       ]
     },
     {
@@ -173,12 +104,10 @@ window.PORTFOLIO = {
       company: "Small Business Corporation",
       start: "Aug 2023",
       end: "May 2024",
-      location: "Makati, Philippines · On-site",
-      summary: "",
+      location: "Makati · On-site",
       highlights: [
-        "Assisted in database design, management, maintenance and optimization to ensure data integrity, availability and security",
-        "Contributed ideas to the company's Unified Borrower Masterlist project",
-        "Helped manage user access controls and permissions to maintain data security"
+        "Helped design, maintain and optimize databases for integrity, availability and security",
+        "Managed user access and permissions; contributed to the Unified Borrower Masterlist project"
       ]
     },
     {
@@ -187,51 +116,58 @@ window.PORTFOLIO = {
       start: "Mar 2023",
       end: "May 2023",
       location: "",
-      summary: "Gained hands-on experience developing applications with the Vue.js framework.",
       highlights: [
-        "Assisted in building a to-do list application that supported the company's goals"
+        "Helped build a to-do list application with Vue.js"
       ]
     }
   ],
 
-  /* ---------- Projects & case studies ----------
-     Never publish customer data, internal tools, or confidential case details.
-     Personal projects, home labs, PC builds and sanitized write-ups work well. */
+  /* ---------- Projects ----------
+     image: a real screenshot in assets/img/ (leave "" for a text-only entry).
+     Never publish customer data, internal tools, or confidential case details. */
   projects: [
     {
-      title: "Author Website: Jeannie Roberts",
-      overview: "A complete WordPress website for romance and suspense author Jeannie Roberts.",
-      problem: "The author needed a professional online home to showcase her books, sell her titles and grow her reader list.",
-      approach: "Set up WordPress with a customized theme, navigation and page layouts; created individual book pages and an online shop; added a newsletter sign-up with a free eBook offer and an ARC (advance reader copy) sign-up form.",
+      title: "Jeannie Roberts, author website",
+      summary: "A complete WordPress site for a romance and suspense author: a home for her books, a place to buy them, and a way to grow her reader list.",
+      built: [
+        "Custom theme, navigation and page layouts",
+        "A page for each book, plus an online shop",
+        "Newsletter sign-up with a free eBook offer",
+        "ARC (advance reader copy) sign-up form"
+      ],
       tech: ["WordPress", "Web design", "AI tools"],
-      outcome: "A live author website where readers can explore her books, shop, and join her newsletter and ARC team.",
-      repo: "",
-      demo: "https://authorjeannieroberts.com/"
+      image: "assets/img/author-site.jpg",
+      imageAlt: "Home page of authorjeannieroberts.com: the Jeannie Roberts logo, site navigation, the headline All Roads Lead Home and three book covers.",
+      demo: "https://authorjeannieroberts.com/",
+      repo: ""
     },
     {
-      title: "Personal Portfolio Website",
-      overview: "This website: a fast, accessible portfolio hosted for free on GitHub Pages.",
-      problem: "Needed a professional, always-online place to showcase my work and experience, at no hosting cost.",
-      approach: "Built a dependency-free static site with semantic HTML, modern CSS and vanilla JavaScript. Content lives in one data file, so updates take minutes.",
+      title: "Super Barangay Cleaners",
+      summary: "My undergraduate thesis: a third-person shooter whose levels are built by a procedural content generation algorithm. Presented at USLS Computing Expo 1.0 in March 2023.",
+      built: [],
+      tech: ["Game development", "Procedural generation"],
+      image: "",
+      imageAlt: "",
+      demo: "",
+      repo: ""
+    },
+    {
+      title: "This website",
+      summary: "Plain HTML, CSS and JavaScript with no build step, hosted free on GitHub Pages. All content lives in one data file.",
+      built: [],
       tech: ["HTML", "CSS", "JavaScript", "GitHub Pages"],
-      outcome: "A responsive, keyboard-accessible site that stays online independently of any local machine.",
-      repo: "https://github.com/itsnotlnrd/itsnotlnrd.github.io",
-      demo: ""
+      image: "",
+      imageAlt: "",
+      demo: "",
+      repo: "https://github.com/itsnotlnrd/itsnotlnrd.github.io"
     }
-    // TODO: add projects in the same format:
-    // {
-    //   title: "", overview: "", problem: "", approach: "",
-    //   tech: ["", ""], outcome: "", repo: "https://github.com/...", demo: ""
-    // },
   ],
 
   /* ---------- Education, certifications & training ---------- */
   achievements: [
-    { type: "Education", title: "BS Computer Science", issuer: "University of St. La Salle", date: "2019 – 2023", url: "" },
-    { type: "Certification", title: "EF SET English Certificate: C1 Advanced", issuer: "EF SET", date: "Mar 2024", url: "https://cert.efset.org/D7HwzU" },
-    { type: "Training", title: "SkillUP: Python Programming", issuer: "EDUCBA", date: "", url: "" },
-    { type: "Training", title: "SkillUP: Tableau", issuer: "EDUCBA", date: "", url: "" }
-    // TODO: add more, for example:
-    // { type: "Award", title: "Award name", issuer: "Issuer", date: "2025", description: "" },
+    { type: "Degree", title: "BS Computer Science", issuer: "University of St. La Salle, Bacolod", date: "2019 – 2023", url: "" },
+    { type: "Certificate", title: "EF SET English, C1 Advanced", issuer: "EF SET", date: "Mar 2024", url: "https://cert.efset.org/D7HwzU" },
+    { type: "Training", title: "SkillUP: Python Programming", issuer: "EDUCBA", date: "May 2023", url: "" },
+    { type: "Training", title: "SkillUP: Tableau", issuer: "EDUCBA", date: "May 2023", url: "" }
   ]
 };
